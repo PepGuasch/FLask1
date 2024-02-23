@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Consulta</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Consulta</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Elige tu Destino</legend>
+                <select name="destino" id="destino">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Lituania">Lituania</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Orslok">Orslok</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Wales">Wales</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zambia">Zambia</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Necesidades Especiales</legend>
+                <input type="checkbox" id="necesidad1" name="necesidades" value="Asiento Doble (Estas Gord@)">
+                <label for="necesidad1">Asiento Doble</label>
+
+                <input type="checkbox" id="necesidad2" name="necesidades" value="Tapones para las orejas">
+                <label for="necesidad2">Tapones para las orejas</label>
+
+                <input type="checkbox" id="necesidad3" name="necesidades" value="Ventanilla">
+                <label for="necesidad3">Ventanilla</label>
+
+                <input type="checkbox" id="necesidad4" name="necesidades" value="Bolsa para vomitar">
+                <label for="necesidad4">Bolsa para vomitar</label>
+
+                <input type="checkbox" id="necesidad5" name="necesidades" value="Television">
+                <label for="necesidad5">Television</label>
+
+                <input type="checkbox" id="necesidad6" name="necesidades" value="WiFi">
+                <label for="necesidad6">WiFi</label>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
